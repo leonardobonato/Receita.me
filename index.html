@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Receita.me</title>
+</head>
+
+<body>
+    <div class="header-nav">
+        <h1 class="receita">Receita.me</h1>
+        <nav>
+            <button onclick="receitas()" class="receitas">Receitas</button>
+            <button onclick="achar()" class="onde">Onde achar?</button>
+            <button onclick="livros()" class="livros">Livros de culinária</button>
+            <button class="bot">Entrar</button>
+        </nav>
+    </div>
+
+    <header class="header-container">
+    
+        <section class="filter">
+            <div class="input-wrapper">
+                <i class="bi bi-search"></i>
+                <input type="text" placeholder="O que deu vontade de comer?">
+            </div>
+        </section>
+
+        <div class="text-group">
+            <h1 class="bemvindo">BEM VINDO AO RECEITA<span class="ponto">.</span>ME<span class="exclama">!</span></h1>
+            <h3 class="olhadinha">Da uma olhadinha nas receitas que preparei logo abaixo!</h3>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="card" style="width: 18rem;">
+            <img src="./img/bolo-chocolate.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Bolo de chocolate</h5>
+                <p class="card-text">
+                <p>Farinha</p>
+                <p>Chocolate em pó</p>
+                <p>Leite</p>
+                <p>Açucar</p>
+                <p>Ovo</p>
+                <p>Óleo</p>
+                <a href="https://www.recepedia.com/pt-br/receita/bolo/178649-bolo-de-chocolate/"
+                    class="btn btn-primary">Ver receita</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="./img/escondidinho.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Escondidinho de carne</h5>
+                <p class="card-text">
+                <p>Batata</p>
+                <p>Queijo Mussarela</p>
+                <p>Leite</p>
+                <p>Manteiga</p>
+                <p>Carne moída</p>
+                <p>Especiarias</p>
+                <a href="https://www.recepedia.com/pt-br/receita/carne/36083-escondidinho-de-abobora-com-carne/"
+                    class="btn btn-primary">Ver receita</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="./img/morango.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Vitamina de morango</h5>
+                <p class="card-text">
+                <p>Leite</p>
+                <p>Morango fresco</p>
+                <p>Açucar</p>
+                <p>Gelo</p>
+                <a href="https://www.recepedia.com/pt-br/receita/frutas/36642-vitamina-de-manga-e-framboesa/"
+                    class="btn btn-primary">Ver receita</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="./img/strogonoff.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Strogonoff de frango</h5>
+                <div class="card-text">
+                    <p>Peito de frango</p>
+                    <p>Cebola</p>
+                    <p>Tomate</p>
+                    <p>Extrato de tomate</p>
+                    <p>Especiarias</p>
+                    <p>Creme de leite</p>
+                </div>
+                <a href="https://www.recepedia.com/pt-br/receita/carne/157725-strogonoff-cremoso/"
+                    class="btn btn-primary">Ver receita</a>
+            </div>
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <div class="roda-pe">
+            <p>© 2023 Leonardo Bonato | Todos os direitos reservados.</p>
+            <nav>
+                <a href="#">Home</a>
+                <a href="https://www.instagram.com/leonardobonato_/">Sobre</a>
+                <a href="https://www.linkedin.com/in/leonardo-bonato/">Contato</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+<script src="./script.js"></script>
+
+</html>

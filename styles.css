@@ -1,0 +1,182 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+.receita {
+    margin-left: 150px;
+    margin-top: 25px;
+    color: blue;
+}
+.header-nav {
+    display: flex;
+    flex-direction: row;
+}
+.receitas {
+    margin-left: 100px;
+    margin-top: 25px;
+    border-radius: 100px;
+    height: 50px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: orangered;
+}
+.onde {
+    margin-left: 100px;
+    margin-top: 25px;
+    border-radius: 100px;
+    height: 50px;
+    width: 120px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: orangered;
+}
+.livros {
+    margin-left: 100px;
+    margin-top: 25px;
+    border-radius: 100px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: orangered;
+}
+.bot {
+    margin-left: 150px;
+    border-radius: 100px;
+    height: 50px;
+    width: 100px;
+    margin-top: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 900;
+    color: orangered;
+}
+.pesquisa {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 400px;
+    border-radius: 25px;
+    width: 800px;
+    height: 50px;
+    font-size: x-large;
+}
+input::placeholder {
+    text-indent: 20px;
+}
+.bemvindo {
+    margin-top: 100px;
+    margin-left: 150px;
+    color: orangered;
+    font-size: 80px;
+}
+span {
+    color: blue;
+}
+.olhadinha {
+    color: blue;
+    margin-left: 150px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.icone {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 250px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.main {
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    gap: 25px;
+}
+.card-text {
+    margin-left: 5px;
+}
+footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    text-align: center;
+}
+.roda-pe {
+    max-width: 960px;
+    margin: 0 auto;
+}
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+}
+/* Novo Css */
+
+/* Section Filter */
+section.filter {
+    margin-top: 3.2rem;
+    padding: 0 2.4rem;
+    display: flex;
+    gap: 1.2rem;
+}
+
+.filter button {
+    padding: 1.2rem 3.2rem;
+    border: 0;
+    background-color: #df5b04;
+    border-radius: .5rem;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.filter button span {
+    box-shadow: .0rem .4rem 1.6rem rgba(22, 22, 22, 0.1);
+    font-size: 1.1rem;
+}
+
+.filter button i {
+    font-size: 1.1rem;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #ffffff;
+    border: 0.07rem solid #e3e3e3;
+    box-shadow: .0rem .4rem 1.6rem rgba(22, 22, 22, 0.1);
+    border-radius: .8rem;
+    padding: 0 1.1rem;
+    flex: 1;
+}
+
+.input-wrapper i {
+    font-size: 2.4rem;
+    color: #505059;
+}
+
+.input-wrapper input {
+    border: 0;
+    width: 100%;
+    outline: 0;
+}
+
+.input-wrapper:has(:focus) {
+    outline: .2rem black solid;
+}
+
+.input-wrapper input::placeholder {
+    font-size: 1rem;
+}
